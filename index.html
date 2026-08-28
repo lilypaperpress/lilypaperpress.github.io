@@ -10,22 +10,27 @@
   header h1 { font-size: 1.35rem; font-weight: normal; margin: 0; letter-spacing: 0.04em; }
   header p { margin: 0.3rem 0 0; font-size: 0.85rem; color: #8A7F76; }
   main { max-width: 42rem; margin: 1.2rem auto 3rem; padding: 0 1rem; }
-  figure { margin: 0; background: #fff; border: 1px solid #E7DfD3; border-radius: 12px; padding: 0.8rem; box-shadow: 0 2px 8px rgba(60,40,20,.07); }
-  img { display: block; width: 100%; height: auto; border-radius: 6px; }
-  figcaption { text-align: center; font-size: 0.85rem; color: #8A7F76; padding-top: 0.6rem; }
+  a.card { display: block; text-decoration: none; color: inherit; background: #fff; border: 1px solid #E7DFD3; border-radius: 12px; padding: 1.2rem 1.4rem; margin-bottom: 1rem; box-shadow: 0 2px 8px rgba(60,40,20,.07); }
+  a.card:hover { border-color: #C9BBA8; }
+  a.card h2 { margin: 0 0 0.3rem; font-size: 1.05rem; font-weight: normal; }
+  a.card p { margin: 0; font-size: 0.85rem; color: #8A7F76; }
   footer { text-align: center; font-size: 0.75rem; color: #B0A79C; padding-bottom: 2rem; }
 </style>
 </head>
 <body>
 <header>
   <h1>Lily Paper Press</h1>
-  <p>Colored reference pages — color along, brain off</p>
+  <p>Bonus galleries and music for our coloring books</p>
 </header>
 <main>
-  <figure>
-    <img src="crystal-dragon.jpg" alt="Fully colored crystal dragon guardian coloring page in teal, pink and gold">
-    <figcaption>Crystal Dragon — sample colored page</figcaption>
-  </figure>
+  <a class="card" href="spirit-guardians/">
+    <h2>Spirit Guardians</h2>
+    <p>All 40 guardians, fully colored. Borrow ideas or just enjoy the view.</p>
+  </a>
+  <a class="card" href="music/">
+    <h2>Music to color by</h2>
+    <p>Long, calm soundscapes made to keep you company while you color.</p>
+  </a>
 </main>
 <footer>© Lily Paper Press</footer>
 </body>
